@@ -1,33 +1,153 @@
 body{
-  font-family: monospace;
+  font-family: Times;
+  background-color: rgb(255, 255, 255);
+
 }
+
 header{
-  background-color: lightseagreen;
+  background-color: rgb(207, 213, 216);
   padding: 20px;
   margin-bottom: 10px;
+  border-radius: 10px;
+  
 }
+
 label{
   font-size: 20px;
 }
+
 select{
-  font-family: monospace;
-  font-size: 20px;
+  font-family: Times;
+  font-size: 21px;
+  border-radius: 10px;
+
 }
-input{
-  font-family: monospace;
-  font-size: 20px;
+
+img{
+  outline-color:rgb(207, 213, 216);
+  outline-style: solid;
+  outline-width: 3px;
+  border-radius: 10px;
+  
 }
+
 button{
-  background-color: lightseagreen;
+  background-color: rgb(207, 213, 216);
   padding: 10px;
-  font-family: monospace;
+  font-family: Times;
   border: none;
   margin-bottom: 10px;
+  border-radius: 10px;
+  color: white;
+
 }
+
 .outputBox{
   padding: 10px;
-  min-height: 160px;
-  width: 60%;
-  outline-color: lightseagreen;
+  min-height: 250px;
+  width: 75%;
+  outline-color: rgb(207, 213, 216);
   outline-style: solid;
+  outline-width: 4px;
+  border-radius: 10px;
+
+}
+
+body.beachy-sunny { 
+  background-color: rgb(255, 239, 179);
+}
+body.beachy-sunny header,
+body.beachy-sunny button,
+body.beachy-sunny .outputBox,
+body.beachy-sunny img {
+  background-color: rgb(255, 210, 100);
+  outline-color: rgb(255, 210, 100);
+}
+
+body.beachy-snow { 
+  background-color: rgb(200, 230, 255);
+}
+body.beachy-snow header,
+body.beachy-snow button,
+body.beachy-snow .outputBox,
+body.beachy-snow img {
+  background-color: rgb(150, 200, 255);
+  outline-color: rgb(150, 200, 255);
+}
+
+body.beachy-raining { 
+  background-color: rgb(173, 216, 230);
+}
+body.beachy-raining header,
+body.beachy-raining button,
+body.beachy-raining .outputBox,
+body.beachy-raining img {
+  background-color: rgb(120, 190, 210);
+  outline-color: rgb(120, 190, 210);
+}
+
+body.skiing-snow { 
+  background-color: rgb(220, 245, 255);
+}
+body.skiing-snow header,
+body.skiing-snow button,
+body.skiing-snow .outputBox,
+body.skiing-snow img {
+  background-color: rgb(180, 225, 245);
+  outline-color: rgb(180, 225, 245);
+}
+
+body.skiing-sunny { 
+  background-color: rgb(190, 225, 255);
+}
+body.skiing-sunny header,
+body.skiing-sunny button,
+body.skiing-sunny .outputBox,
+body.skiing-sunny img {
+  background-color: rgb(130, 200, 255);
+  outline-color: rgb(130, 200, 255);
+}
+
+body.skiing-raining { 
+  background-color: rgb(160, 210, 255);
+}
+body.skiing-raining header,
+body.skiing-raining button,
+body.skiing-raining .outputBox,
+body.skiing-raining img {
+  background-color: rgb(100, 180, 230);
+  outline-color: rgb(100, 180, 230);
+}
+
+body.mountains-raining { 
+  background-color: rgb(200, 240, 200);
+}
+body.mountains-raining header,
+body.mountains-raining button,
+body.mountains-raining .outputBox,
+body.mountains-raining img {
+  background-color: rgb(140, 220, 140);
+  outline-color: rgb(140, 220, 140);
+}
+
+body.mountains-snow { 
+  background-color: rgb(220, 245, 255);
+}
+body.mountains-snow header,
+body.mountains-snow button,
+body.mountains-snow .outputBox,
+body.mountains-snow img {
+  background-color: rgb(180, 225, 245);
+  outline-color: rgb(180, 225, 245);
+}
+
+body.mountains-sunny { 
+  background-color: rgb(240, 255, 220);
+}
+body.mountains-sunny header,
+body.mountains-sunny button,
+body.mountains-sunny .outputBox,
+body.mountains-sunny img {
+  background-color: rgb(200, 240, 160);
+  outline-color: rgb(200, 240, 160);
 }
